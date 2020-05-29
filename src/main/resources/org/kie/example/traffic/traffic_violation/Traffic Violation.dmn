@@ -88,7 +88,7 @@
           <dmn:text>"Speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_D745FEC9-83F4-45B2-A71D-F44AB7BF4EDB">
-          <dmn:text>&gt;=30</dmn:text>
+          <dmn:text>&gt;= 30</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_79890FBE-5149-4982-8E20-065871AF0EEE">
           <dmn:text>1000</dmn:text>
@@ -113,7 +113,7 @@
       </dmn:rule>
       <dmn:rule id="_7FD1BEE9-156F-4A61-B9E1-B9CB9D7400E5">
         <dmn:inputEntry id="_14ED172D-C533-4EB7-B68D-DFD8B16473C7">
-          <dmn:text>"driving under the influence"</dmn:text>
+          <dmn:text>"Driving under the influence"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_E6573EDB-BBE7-4C46-BA5E-EAA19286F18C">
           <dmn:text>-</dmn:text>
@@ -214,7 +214,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="403" y="276" width="100" height="50"/>
+        <dc:Bounds x="180" y="94" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_ED4CEFD7-2DD8-4FB9-BC5C-80FA64671A89" dmnElementRef="_ED4CEFD7-2DD8-4FB9-BC5C-80FA64671A89">
@@ -222,7 +222,7 @@
         <di:waypoint x="631.7777777777777" y="120.4072301967039"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_FA86F871-C487-4AA4-B860-9D682E98BF23" dmnElementRef="_FA86F871-C487-4AA4-B860-9D682E98BF23">
-        <di:waypoint x="453" y="276"/>
+        <di:waypoint x="230" y="94"/>
         <di:waypoint x="453" y="145.25"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_C72F5AD7-9ADC-4626-B453-9B365E7CB22D" dmnElementRef="_C72F5AD7-9ADC-4626-B453-9B365E7CB22D">
