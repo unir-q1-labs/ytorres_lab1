@@ -54,7 +54,7 @@
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
-    <dmn:variable id="_39094C16-B8F4-4032-BF81-E3CF34F1DCC4" name="Should the driver be suspended?" typeRef="string"/>
+    <dmn:variable id="_39094C16-B8F4-4032-BF81-E3CF34F1DCC4" name="Should the driver be suspended?" typeRef="number"/>
     <dmn:informationRequirement id="_FA86F871-C487-4AA4-B860-9D682E98BF23">
       <dmn:requiredInput href="#_34D94E07-3303-4E7C-B7BE-3DFA502313D1"/>
     </dmn:informationRequirement>
