@@ -67,7 +67,7 @@
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_84BDA634-6F3A-4D43-8093-71478107EA11">
-          <dmn:text>if Total Points >=20 then "Yes" else "No"</dmn:text>
+          <dmn:text>if Total Points >= 20 then "Yes" else "No"</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
