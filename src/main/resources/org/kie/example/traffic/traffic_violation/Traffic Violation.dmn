@@ -19,14 +19,17 @@
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_0A0E83E3-5196-45C9-870A-E970FDD87642" name="tViolation" isCollection="false">
+    <dmn:itemComponent id="_0C89E3B5-E960-449C-BDA0-2C5A1C316AE7" name="Type" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+      <dmn:allowedValues kie:constraintType="enumeration" id="_D75BDA7D-E9B4-4317-AD0A-2892494A9D1C">
+        <dmn:text>"Speed", "Parking", "Driving under the influence"</dmn:text>
+      </dmn:allowedValues>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_23926672-64BF-4663-B0D8-8166C2D2C895" name="Code" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_6B1CBDD3-4FB7-423D-BE45-AFA4E4D7E1A2" name="Date" isCollection="false">
       <dmn:typeRef>date</dmn:typeRef>
-    </dmn:itemComponent>
-    <dmn:itemComponent id="_2B50DA50-039A-4A4B-B60F-4B80ED784CA7" name="Type" isCollection="false">
-      <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_AE02B61C-4922-45DE-AE42-80756DE0F1F3" name="Speed Limit" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
@@ -74,7 +77,7 @@
   </dmn:decision>
   <dmn:inputData id="_34D94E07-3303-4E7C-B7BE-3DFA502313D1" name="Driver">
     <dmn:extensionElements/>
-    <dmn:variable id="_0DAFBC61-C20D-4A74-AF18-DFCDEEB7DBB6" name="Driver" typeRef="tDriver"/>
+    <dmn:variable id="_0DAFBC61-C20D-4A74-AF18-DFCDEEB7DBB6" name="Driver"/>
   </dmn:inputData>
   <dmn:decision id="_8DCAB1AE-B141-4C72-86CB-AABE22E9E864" name="Fine">
     <dmn:extensionElements/>
